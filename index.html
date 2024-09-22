@@ -5,8 +5,673 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello world!</h1>
+  <header class="header"> 
+    <!-- ОДИН -->
+    <div class="slider-image slider-image-one block">
+      <div class="header__top">
+        <div class="header__logo">
+          <div class="header__logo-top">
+            <img class="header__logo-one" src="src/images/header/logo.svg" alt="logo">
+            <img class="header__logo-two" src="src/images/header/logo-moon.svg" alt="logo">
+          </div>
+            <img class="header__logo-three" src="src/images/header/logo-bottom.svg" alt="logo">
+        </div>
+        <div class="header__menu">
+          <a href="#menu-one" data-menu="menu-one" class="open-menu-btn">
+            <img class="header__menu-logo" src="src/images/header/burger-menu.svg" alt="menu">
+          </a>
+        </div>
+      </div>
+    
+      <aside class="menu" id="menu-one">
+        <div class="menu__top">
+          <h1 class="menu__title">Menu</h1>
+          <a href="#" class="menu__close close-menu-btn" data-menu="menu-one">
+            <img class="menu__close-img" src="src/images/header/close-icon.png" alt="close">
+          </a>
+        </div>
+          
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About Us Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Services Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#philosophy">Philosophy Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contact">Contact Us Page</a>
+          </li>
+        </ul>
+      </aside>
+    
+      <div class="header__bottom">
+        <div class="header__title">
+          <h1 class="header__title-text">Art of marketing</h1>
+          <button class="header__title-button">
+            <img class="header__title-img arrow-right" src="src/images/header/arrow-yellow.svg" alt="arrow-yellow">
+          </button>
+        </div>
+        <div class="header__desc">
+          <p class="header__desc-text">
+            Welcome to Art of Marketing, a cutting-edge creative and marketing 
+            agency dedicated to the art of disruption. Our mission is to revolutionize 
+            the marketing landscape with innovative strategies and compelling storytelling. 
+            We blend creativity with data-driven insights to craft unique campaigns that captivate and convert.
+          </p>
+        </div>
+  
+        <div class="header__bottom-pagination" id="bottom">
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination-active.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ДВА -->
+
+    <div class="slider-image slider-image-two">
+      <div class="header__top">
+        <div class="header__logo">
+          <div class="header__logo-top">
+            <img class="header__logo-one" src="src/images/header/logo.svg" alt="logo">
+            <img class="header__logo-two" src="src/images/header/logo-moon.svg" alt="logo">
+          </div>
+            <img class="header__logo-three" src="src/images/header/logo-bottom.svg" alt="logo">
+        </div>
+        <div class="header__menu">
+          <a href="#menu-two" data-menu="menu-two" class="open-menu-btn">
+            <img class="header__menu-logo" src="src/images/header/burger-menu.svg" alt="menu">
+          </a>
+        </div>
+      </div>
+    
+      <aside class="menu" id="menu-two">
+        <div class="menu__top">
+          <h1 class="menu__title">Menu</h1>
+          <a href="#" class="menu__close close-menu-btn" data-menu="menu-two">
+            <img class="menu__close-img" src="src/images/header/close-icon.png" alt="close">
+          </a>
+        </div>
+          
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About Us Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Services Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#philosophy">Philosophy Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contact">Contact Us Page</a>
+          </li>
+        </ul>
+      </aside>
+    
+      <div class="header__bottom-next">
+        <div class="header__title">
+          <h1 class="header__title-text-next">INNOVATE BOLDLY, DISRUPT BRILLIANTLY</h1>
+          <button class="header__title-button">
+            <img class="header__title-img arrow-right" src="src/images/header/arrow-yellow.svg" alt="arrow-yellow">
+          </button>
+        </div>
+  
+        <div class="header__bottom-pagination" id="bottom">
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination-active.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ТРИ -->
+
+    <div class="slider-image slider-image-three">
+      <div class="header__top">
+        <div class="header__logo">
+          <div class="header__logo-top">
+            <img class="header__logo-one" src="src/images/header/logo.svg" alt="logo">
+            <img class="header__logo-two" src="src/images/header/logo-moon.svg" alt="logo">
+          </div>
+            <img class="header__logo-three" src="src/images/header/logo-bottom.svg" alt="logo">
+        </div>
+        <div class="header__menu">
+          <a href="#menu-three" data-menu="menu-three" class="open-menu-btn">
+            <img class="header__menu-logo" src="src/images/header/burger-menu.svg" alt="menu">
+          </a>
+        </div>
+      </div>
+    
+      <aside class="menu" id="menu-three">
+        <div class="menu__top">
+          <h1 class="menu__title">Menu</h1>
+          <a href="#" class="menu__close close-menu-btn" data-menu="menu-three">
+            <img class="menu__close-img" src="src/images/header/close-icon.png" alt="close">
+          </a>
+        </div>
+          
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About Us Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Services Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#philosophy">Philosophy Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contact">Contact Us Page</a>
+          </li>
+        </ul>
+      </aside>
+    
+      <div class="header__bottom-next">
+        <div class="header__title">
+          <h1 class="header__title-text-next">INNOVATE, DISRUPT, CONNECT</h1>
+          <button class="header__title-button">
+            <img class="header__title-img arrow-right" src="src/images/header/arrow-yellow.svg" alt="arrow-yellow">
+          </button>
+        </div>
+  
+        <div class="header__bottom-pagination" id="bottom">
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination-active.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ЧОТИРИ -->
+
+    <div class="slider-image slider-image-four">
+      <div class="header__top">
+        <div class="header__logo">
+          <div class="header__logo-top">
+            <img class="header__logo-one" src="src/images/header/logo.svg" alt="logo">
+            <img class="header__logo-two" src="src/images/header/logo-moon.svg" alt="logo">
+          </div>
+            <img class="header__logo-three" src="src/images/header/logo-bottom.svg" alt="logo">
+        </div>
+        <div class="header__menu">
+          <a href="#menu-four" data-menu="menu-four" class="open-menu-btn">
+            <img class="header__menu-logo" src="src/images/header/burger-menu.svg" alt="menu">
+          </a>
+        </div>
+      </div>
+    
+      <aside class="menu" id="menu-four">
+        <div class="menu__top">
+          <h1 class="menu__title">Menu</h1>
+          <a href="#" class="menu__close close-menu-btn" data-menu="menu-four">
+            <img class="menu__close-img" src="src/images/header/close-icon.png" alt="close">
+          </a>
+        </div>
+          
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About Us Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Services Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#philosophy">Philosophy Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contact">Contact Us Page</a>
+          </li>
+        </ul>
+      </aside>
+    
+      <div class="header__bottom-next">
+        <div class="header__title">
+          <h1 class="header__title-text-next">INNOVATE, DISRUPT, DOMINATE</h1>
+          <button class="header__title-button">
+            <img class="header__title-img arrow-right" src="src/images/header/arrow-yellow.svg" alt="arrow-yellow">
+          </button>
+        </div>
+  
+        <div class="header__bottom-pagination" id="bottom">
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination-active.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- П’ЯТЬ -->
+
+    <div class="slider-image slider-image-five">
+      <div class="header__top">
+        <div class="header__logo">
+          <div class="header__logo-top">
+            <img class="header__logo-one" src="src/images/header/logo.svg" alt="logo">
+            <img class="header__logo-two" src="src/images/header/logo-moon.svg" alt="logo">
+          </div>
+            <img class="header__logo-three" src="src/images/header/logo-bottom.svg" alt="logo">
+        </div>
+        <div class="header__menu">
+          <a href="#menu-five" data-menu="menu-five" class="open-menu-btn">
+            <img class="header__menu-logo" src="src/images/header/burger-menu.svg" alt="menu">
+          </a>
+        </div>
+      </div>
+    
+      <aside class="menu" id="menu-five">
+        <div class="menu__top">
+          <h1 class="menu__title">Menu</h1>
+          <a href="#" class="menu__close close-menu-btn" data-menu="menu-five">
+            <img class="menu__close-img" src="src/images/header/close-icon.png" alt="close">
+          </a>
+        </div>
+          
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About Us Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Services Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#philosophy">Philosophy Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contact">Contact Us Page</a>
+          </li>
+        </ul>
+      </aside>
+    
+      <div class="header__bottom-next">
+        <div class="header__title">
+          <h1 class="header__title-text-next">TRANSFORMING VISIONS INTO MARKET REVOLUTION</h1>
+          <button class="header__title-button">
+            <img class="header__title-img arrow-right" src="src/images/header/arrow-yellow.svg" alt="arrow-yellow">
+          </button>
+        </div>
+  
+        <div class="header__bottom-pagination" id="bottom">
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination-active.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ШІСТЬ -->
+
+    <div class="slider-image slider-image-six">
+      <div class="header__top">
+        <div class="header__logo">
+          <div class="header__logo-top">
+            <img class="header__logo-one" src="src/images/header/logo.svg" alt="logo">
+            <img class="header__logo-two" src="src/images/header/logo-moon.svg" alt="logo">
+          </div>
+            <img class="header__logo-three" src="src/images/header/logo-bottom.svg" alt="logo">
+        </div>
+        <div class="header__menu">
+          <a href="#menu-six" data-menu="menu-six" class="open-menu-btn">
+            <img class="header__menu-logo" src="src/images/header/burger-menu.svg" alt="menu">
+          </a>
+        </div>
+      </div>
+    
+      <aside class="menu" id="menu-six">
+        <div class="menu__top">
+          <h1 class="menu__title">Menu</h1>
+          <a href="#" class="menu__close close-menu-btn" data-menu="menu-six"> 
+            <img class="menu__close-img" src="src/images/header/close-icon.png" alt="close">
+          </a>
+        </div>
+          
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About Us Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Services Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#philosophy">Philosophy Page</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contact">Contact Us Page</a>
+          </li>
+        </ul>
+      </aside>
+    
+      <div class="header__bottom-next">
+        <div class="header__title">
+          <h1 class="header__title-text-next">IGNITING INNOVATION, DISRUPTING MARKETS</h1>
+          <button class="header__title-button">
+            <img class="header__title-img arrow-right" src="src/images/header/arrow-yellow.svg" alt="arrow-yellow">
+          </button>
+        </div>
+  
+        <div class="header__bottom-pagination" id="bottom">
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination.svg" alt="pagination">
+          </div>
+          <div class="pagination-circle">
+            <img class="pagination" src="src/images/header/pagination-active.svg" alt="pagination">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="about" id="about">
+    <div class="about__content">
+      <div class="about__title">
+        <h1 class="about__title-text">About us</h1>
+        <button class="about__title-button">
+          <img class="about__title-img" src="src/images/about/arrow-blue.svg" alt="arrow-blue">
+        </button>
+      </div>
+      <div class="about__desc">
+        <p class="about__desc-text">
+          At Art of Marketing, disruption is in our DNA. Our team of visionary 
+          strategists, creative wizards, and tech-savvy experts collaborate to push boundaries 
+          and redefine brand experiences. We believe in breaking the mold and setting 
+          new standards in the industry.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="services__title">
+      <h1 class="services__title-text">Services</h1>
+      <button class="services__title-button">
+        <img class="services__title-img" src="src/images/services/arrow-orange.svg" alt="arrow-orange">
+      </button>
+    </div>
+
+    <!-- ПЕРШИЙ -->
+
+    <div class="services__content">
+      <div class="services__content-top">
+        <div class="services__images">
+          <img class="services__images-vector" src="src/images/services/vector-1.svg" alt="vector">
+          <img class="services__images-img" src="src/images/services/image-1.svg" alt="image">
+        </div>
+  
+        <div class="services__details">
+          <ul class="services__list">
+            <li class="services__item">
+              <h2 class="services__item-title">Creative Strategy</h2>
+              <p class="services__item-desc">Innovative concepts that disrupt and engage.</p>
+            </li>
+  
+            <li class="services__item">
+              <h2 class="services__item-title">Brand Development</h2>
+              <p class="services__item-desc">Building memorable, enduring brands.</p>
+            </li>
+  
+            <li class="services__item">
+              <h2 class="services__item-title">Content Creation</h2>
+              <p class="services__item-desc">Crafting high-quality, engaging narratives.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <!-- ДРУГИЙ -->
+      <div class="services__content-bottom">
+        <div class="services__details-bottom">
+          <ul class="services__list-bottom">
+            <li class="services__item-bottom">
+              <h2 class="services__item-title">Digital Marketing</h2>
+              <p class="services__item-desc">Leveraging technology and data for impactful results.</p>
+            </li>
+  
+            <li class="services__item-bottom">
+              <h2 class="services__item-title">Social Media Management</h2>
+              <p class="services__item-desc">Amplifying your brand's presence online.</p>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="services__images-bottom">
+          <img class="services__images-vector-bottom" src="src/images/services/vector-2.svg" alt="vector">
+          <img class="services__images-img-bottom" src="src/images/services/image-2.svg" alt="image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="philosophy" id="philosophy">
+    <div class="philosophy__content">
+      <div class="philosophy__title">
+        <h1 class="philosophy__title-text">Philosophy</h1>
+        <button class="philosophy__title-button">
+          <img class="philosophy__title-img" src="src/images/header/arrow-yellow.svg" alt="arrow-yellow">
+        </button>
+      </div>
+      <div class="philosophy__desc">
+        <p class="philosophy__desc-text">
+          We thrive on the power of disruption. Our goal is 
+          to help your brand stand out in a crowded market by delivering exceptional, 
+          creative solutions that drive success.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact__top">
+      <div class="contact__top-item">
+        <h2 class="contact__top-text">Contact Us</h2>
+        <img class="contact__top-img" src="src/images/contact-us/arrow-black.svg" alt="arrow-black">
+      </div>
+      <div class="contact__top-item">
+        <h2 class="contact__top-text">Contact Us</h2>
+        <img class="contact__top-img" src="src/images/contact-us/arrow-black.svg" alt="arrow-black">
+      </div>
+      <div class="contact__top-item">
+        <h2 class="contact__top-text">Contact Us</h2>
+        <img class="contact__top-img" src="src/images/contact-us/arrow-black.svg" alt="arrow-black">
+      </div>
+    </div>
+
+    <div class="contact__content">
+      <div class="contact__item">
+        <label class="contact__label" for="input-name">Your Name</label>
+        <input class="contact__input" type="text" id="input-name">
+
+        <label class="contact__label" for="input-email">Your Email</label>
+        <input class="contact__input"  type="email" id="input-email">
+
+        <label class="contact__label" for="input-message">Your Message</label>
+        <input class="contact__input"  type="text" id="input-message">
+
+        <div class="contact__checkbox">
+          <input class="contact__input-checkbox" type="checkbox" id="input-checkbox">
+          <label class="contact__label-checkbox" for="input-checkbox">Terms and Conditions</label>
+        </div>
+
+        <button class="contact__button">
+          <h3 class="contact__button-text">Send Message</h3>
+        </button>
+      </div>
+
+      <div class="contact__images">
+        <img class="contact__images-vector" src="src/images/services/vector-2.svg" alt="vector">
+        <img class="contact__images-img" src="src/images/contact-us/image-3.svg" alt="image">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__left">
+      <div class="footer__logo">
+        <div class="footer__logo-top">
+          <img class="footer__logo-one" src="src/images/footer/footer-logo.svg" alt="logo">
+          <img class="footer__logo-two" src="src/images/footer/footer-logo-moon.svg" alt="logo">
+        </div>
+          <img class="footer__logo-three" src="src/images/footer/footer-logo-text.svg" alt="logo">
+      </div>
+
+      <div class="footer__desc">
+        <p class="footer__desc-text">Lorem ipsum dolor sit amet consectetur. Dignissim sit vel sit eget gravida volutpat lacus risus egestas</p>
+        <p class="footer__desc-text">Lorem ipsum dolor sit amet consectetur. Dignissim sit vel sit eget gravida volutpat lacus risus egestas</p>
+      </div>
+    </div>
+
+    <div class="footer__right">
+      <div class="footer__links">
+        <h3 class="footer__links-title">Quick Links</h3>
+        <ul class="footer__links-list">
+          <li class="footer__links-item">
+            <a class="footer__links-link" href="#about">About Us Page</a>
+          </li>
+          <li class="footer__links-item">
+            <a class="footer__links-link" href="#services">Services Page</a>
+          </li>
+          <li class="footer__links-item">
+            <a class="footer__links-link" href="#philosophy">Philosophy Page</a>
+          </li>
+          <li class="footer__links-item">
+            <a class="footer__links-link" href="#contact">Contact Us Page</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__contacts">
+        <h3 class="footer__contacts-title">Contacts</h3>
+        <ul class="footer__contacts-list">
+          <li class="footer__contacts-item">
+            <a class="footer__contacts-link" href="mailto:123@gmail.com">123@gmail.com</a>
+          </li>
+          <li class="footer__contacts-item">
+            <a class="footer__contacts-link" href="tel:+00 123 123 12 12">+00 123 123 12 12</a>
+          </li>
+          <li class="footer__contacts-item">Location</li>
+          <div class="footer__contacts-icons">
+            <li class="footer__contacts-item">
+              <img src="src/images/footer/facebook.svg" alt="facebook">
+            </li>
+            <li class="footer__contacts-item">
+              <img src="src/images/footer/instagram.svg" alt="instagram">
+            </li>
+          </div>
+        </ul>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__bottom-text">© 2023 Company. All rights reserved.</p>
+        <ul class="footer__bottom-list">
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="#">Terms of Service</a>
+          </li>
+          <li class="footer__bottom-item">
+            <a class="footer__bottom-link" href="#">Cookies Settings</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="src/script.js" defer></script>
 </body>
 </html>
